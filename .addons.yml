@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  nats-server:
+    repository: cameri/addon-nats-server
+    target: nats-server
+    image: ghcr.io/cameri/nats-server/{arch}
